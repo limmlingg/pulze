@@ -7,8 +7,13 @@ body {
 	text-align: center;
 }
 
-h2 {
-	font-size: 20px;
+p, label {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+h1, h2 {
+	font-family: 'Patrick Hand SC', cursive;
 }
 
 .form-horizontal {
