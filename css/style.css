@@ -6,7 +6,7 @@ audio {
 body {
 	background: url(../img/background.jpg) no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-size: 100% contain;
 	text-align: center;
 }
