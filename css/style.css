@@ -4,16 +4,57 @@ audio {
 }
 
 body {
+	background: url(../img/background.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% contain;
 	text-align: center;
 }
 
-p, label {
+img {
+	padding-bottom: 5%;
+}
+
+p, label, input, textarea {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 120%;
 	font-weight: bold;
 }
 
 h1, h2 {
 	font-family: 'Patrick Hand SC', cursive;
+}
+
+.btn {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 20px;
+	margin-top: -4px;
+	margin-bottom: 4px;
+}
+.btn:hover {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	box-shadow: none;
+
+}
+.btn-red {
+	background: #dd6060;
+	border-color: #dd6060;
+	box-shadow: 0 4px #881010;
+	color: #ffffff;
+}
+.btn-red:hover {
+	color: #ffffff;
+}
+.btn-white {
+	background: #ffffff;
+	border-color: #ffffff;
+	box-shadow: 0 4px #aaaaaa;
+	color: #dd6060;
+	font-weight: bold;
+}
+.btn-white:hover {
+	color: #dd6060;
 }
 
 .form-horizontal {
@@ -22,6 +63,8 @@ h1, h2 {
 
 .jumbotron {
 	background-color: #3e3e3e;
+	padding: 5% 0;
+	margin-bottom: 0;
 }
 
 .logo {
@@ -32,9 +75,12 @@ h1, h2 {
 .navbar {
 	background-color: #3e3e3e;
 }
-
 .row {
 	padding: 2%;
+}
+
+.well {
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 #address {
@@ -49,14 +95,21 @@ h1, h2 {
 
 #what {
 	background-color: #dd6060;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.05) 35px, rgba(255,255,255,0.05) 70px);
 	color: white;
 }
 #what p {
-	padding: 0% 5%;
+	padding: 2% 5% 10% 5%;
 	text-shadow: 0px 2px 5px #881010; 
 }
 
 #where {
 	background-color: #3e3e3e;
 	color: white;
+}
+
+#who {
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 140%;
+	text-shadow: 0px 2px 5px #ffffff;
 }
