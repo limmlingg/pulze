@@ -6,6 +6,7 @@ audio {
 body {
 	background: url(../img/background.jpg) no-repeat;
 	background-attachment: fixed;
+	/*TODO: Center on mobile*/
 	background-position: center center;
 	background-size: 100% contain;
 	text-align: center;
@@ -27,9 +28,9 @@ h1, h2 {
 
 .btn {
 	font-family: 'Patrick Hand SC', cursive;
-	font-size: 20px;
-	margin-top: -4px;
-	margin-bottom: 4px;
+	font-size: 130%;
+	margin-top: -3px;
+	margin-bottom: 3px;
 }
 .btn:hover {
 	margin-top: 0px;
@@ -40,7 +41,7 @@ h1, h2 {
 .btn-red {
 	background: #dd6060;
 	border-color: #dd6060;
-	box-shadow: 0 4px #881010;
+	box-shadow: 0 3px #881010;
 	color: #ffffff;
 }
 .btn-red:hover {
@@ -49,7 +50,7 @@ h1, h2 {
 .btn-white {
 	background: #ffffff;
 	border-color: #ffffff;
-	box-shadow: 0 4px #aaaaaa;
+	box-shadow: 0 3px #aaaaaa;
 	color: #dd6060;
 	font-weight: bold;
 }
@@ -83,6 +84,13 @@ h1, h2 {
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
+/*Fix grid alignment issue, from: https://stackoverflow.com/questions/42032378/bootstrap-grid-not-aligning-correctly*/
+@media (max-width: 992px) {
+	.alignpls:nth-child(2n+1) {
+		clear: left;
+	}
+}
+
 #address {
 	text-align: left;
 	padding: 0 3%;
@@ -95,6 +103,7 @@ h1, h2 {
 
 #what {
 	background-color: #dd6060;
+	/*From http://lea.verou.me/css3patterns/#diagonal-stripes*/
 	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.05) 35px, rgba(255,255,255,0.05) 70px);
 	color: white;
 }
