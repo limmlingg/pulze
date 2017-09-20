@@ -10,6 +10,7 @@ Where to locate each element in your website:
 - Grid system used throughout, but most noticeable in the "The Voices" page and the home page.
 - Jumbotron in home page.
 - Form validation at the bottom of the home page (Contact Us!)
+- jQuery (play/stop button) in the navigation bar
 
 References you have taken:
 - The current Radio Pulze website (www.radiopulze.com) for text and images (used with permission).
