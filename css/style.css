@@ -8,6 +8,7 @@ body {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: 100% contain;
+	overflow-x:hidden; 
 	text-align: center;
 }
 
@@ -84,6 +85,10 @@ h1, h2 {
 
 .row {
 	padding: 2%;
+}
+
+.schedule {
+	width: 100%;
 }
 
 .well {

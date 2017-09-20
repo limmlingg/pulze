@@ -1,4 +1,4 @@
-// Not responsive
+// Not responsive :(
 /* function setMap() {
 	var location = {lat: 1.305598, lng: 103.772957};
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -12,8 +12,8 @@
 }*/
 
 $(document).ready(function(){
-	var isPlaying = false;
 
+	var isPlaying = false;
 	var stream = document.createElement('audio');
 	stream.setAttribute('src', 'http://128.199.221.166:8000/;stream.mp3');
 
