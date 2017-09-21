@@ -1,6 +1,24 @@
 audio {
-	/*Using a custom player*/
+	/*Using a custom player with jQuery*/
 	display: none;
+}
+
+/*Adapted from https://codepen.io/grapado/pen/Fwrjy*/
+blockquote {
+  border-left: 12px solid #dd6060;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #dd6060;
+  content: open-quote;
+  font-size: 10em;
+  line-height: 0;
+  vertical-align: -.5em;
+}
+/*Fix quotation, adapted from https://stackoverflow.com/questions/25588665/css-open-quote-shows-1-quotation-mark*/
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
 }
 
 body {
@@ -12,11 +30,14 @@ body {
 	text-align: center;
 }
 
-img {
-	padding-bottom: 5%;
+hr {
+	background-color: #dd6060;
+	color: #dd6060;
+  	height: 5px;
+  	margin: 3%;
 }
 
-p, label, input, textarea {
+p, label, input, textarea, blockquote, li {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 120%;
 	font-weight: bold;
@@ -24,6 +45,12 @@ p, label, input, textarea {
 
 h1, h2 {
 	font-family: 'Patrick Hand SC', cursive;
+}
+
+ul {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 120%;
 }
 
 .btn {
@@ -62,6 +89,10 @@ h1, h2 {
 	padding: 2%;
 }
 
+.img-fill {
+	width: 100%;
+}
+
 .jumbotron {
 	background-color: #3e3e3e;
 	margin-top: 0;
@@ -79,8 +110,15 @@ h1, h2 {
 	border-radius: 0;
 	font-family: 'Quicksand', sans-serif;
 	margin-bottom: 0;
-	padding: 0 1%;
+	padding: 0 3%;
 	position: sticky;
+}
+
+.review {
+	background-color: #f4f4f4;
+}
+.review img {
+	box-shadow: 0px 0px 0px 7px #dd6060;
 }
 
 .row {
@@ -91,11 +129,15 @@ h1, h2 {
 	width: 100%;
 }
 
+.services {
+	background-color: white;
+}
+
 .well {
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
-/*Fix grid alignment issue, from: https://stackoverflow.com/questions/42032378/bootstrap-grid-not-aligning-correctly*/
+/*Fix grid alignment issue, adapted from https://stackoverflow.com/questions/42032378/bootstrap-grid-not-aligning-correctly*/
 @media (max-width: 992px) {
 	.alignpls:nth-child(2n+1) {
 		clear: left;
@@ -120,6 +162,9 @@ h1, h2 {
 #what p {
 	padding: 2% 5% 10% 5%;
 	text-shadow: 0px 2px 5px #881010; 
+}
+#what img {
+	padding-bottom: 5%;
 }
 
 #where {

@@ -17,6 +17,7 @@ $(document).ready(function(){
 	var stream = document.createElement('audio');
 	stream.setAttribute('src', 'http://128.199.221.166:8000/;stream.mp3');
 
+	// Play/pause stream
 	$("#playButton").click(function(){
 		if (isPlaying) {
 	    	stream.pause();
@@ -25,7 +26,7 @@ $(document).ready(function(){
 			stream.play();
 			isPlaying = true;
 		}
-
+		// Switch from play to stop button
     	$("#playButton").toggleClass('glyphicon-play').toggleClass('glyphicon-stop');
 	});
 });
