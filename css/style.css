@@ -85,6 +85,27 @@ ul {
 	color: #dd6060;
 }
 
+/*Adapted from https://codepen.io/wilder_taype/pen/Nbmwbb*/
+.event-list {
+	font-size: 100%;
+	list-style: none;
+}
+.event-list li:before {
+	color: #dd6060;
+  	content: '\f00c';
+  	margin-right: 10px;
+  	font-family: FontAwesome;
+}
+
+.fa {
+	color: #ffffff;
+	padding: 1%;
+}
+
+.footer {
+	background-color: #dd6060;
+}
+
 .form-horizontal {
 	padding: 2%;
 }
