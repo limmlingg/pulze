@@ -134,6 +134,9 @@ ul {
 	padding: 0 3%;
 	position: sticky;
 }
+.navbar-stream {
+	cursor: pointer;
+}
 
 .review {
 	background-color: #f4f4f4;
@@ -166,13 +169,14 @@ ul {
 }
 
 #address {
-	padding: 0 3%;
+	padding: 1% 3%;
 }
 
+/* Removed because not responsive
 #map {
 	height: 400px;
 	width: 600px;
-}
+}*/
 
 #what {
 	background-color: #dd6060;

@@ -13,10 +13,16 @@
     <body>
 	    <nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
-		    <ul class="nav navbar-nav">
-		     	<li><a href="#">TUNE IN! <span class="glyphicon glyphicon-play" id="playButton"></span></a></li>
-		    </ul>
-		    <ul class="nav navbar-nav navbar-right">
+		  	<div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#otherNav">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      	</button>
+	     		<a class="navbar-brand navbar-stream">TUNE IN! <span class="glyphicon glyphicon-play" id="playButton"></span></a>
+	    	</div>
+		    <div class="collapse navbar-collapse" id="otherNav">
+			    <ul class="nav navbar-nav navbar-right">
 		    	<!--TODO: Style "active"-->
 		    	<li><a href="index.html">Home</a></li>
 		      	<li><a href="thevoices.html">The Voices</a></li>
@@ -136,6 +142,6 @@
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-LSv9GdyK5iIOn-L0CJ-E5R5kI_24Ia0&callback=setMap"></script>
+        <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-LSv9GdyK5iIOn-L0CJ-E5R5kI_24Ia0&callback=setMap"></script>-->
     </body>
 </html>
