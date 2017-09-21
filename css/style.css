@@ -43,7 +43,7 @@ p, label, input, textarea, blockquote, li {
 	font-weight: bold;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: 'Patrick Hand SC', cursive;
 }
 
@@ -56,8 +56,8 @@ ul {
 .btn {
 	font-family: 'Patrick Hand SC', cursive;
 	font-size: 130%;
-	margin-top: -3px;
-	margin-bottom: 3px;
+	margin-top: -4px;
+	margin-bottom: 4px;
 }
 .btn:hover {
 	margin-top: 0px;
@@ -68,7 +68,7 @@ ul {
 .btn-red {
 	background: #dd6060;
 	border-color: #dd6060;
-	box-shadow: 0 3px #881010;
+	box-shadow: 0 4px #881010;
 	color: #ffffff;
 }
 .btn-red:hover {
@@ -77,7 +77,7 @@ ul {
 .btn-white {
 	background: #ffffff;
 	border-color: #ffffff;
-	box-shadow: 0 3px #aaaaaa;
+	box-shadow: 0 4px #aaaaaa;
 	color: #dd6060;
 	font-weight: bold;
 }
@@ -102,8 +102,10 @@ ul {
 	padding: 1%;
 }
 
-.footer {
+.footer, .ready {
 	background-color: #dd6060;
+	color: #ffffff;
+	text-shadow: 0px 2px 5px #881010; 
 }
 
 .form-horizontal {

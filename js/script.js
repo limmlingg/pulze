@@ -13,8 +13,12 @@
 
 $(document).ready(function(){
 
+	// Bootstrap tooltip	
+    $('[data-toggle="tooltip"]').tooltip(); 
+
 	var isPlaying = false;
 	var stream = document.createElement('audio');
+	// Radio Pulze stream URL
 	stream.setAttribute('src', 'http://128.199.221.166:8000/;stream.mp3');
 
 	// Play/pause stream
