@@ -2,7 +2,7 @@ Home page:
 index.html
 
 Description of the website:
-A redone version of the Radio Pulze website. Radio Pulze is the official NUS campus radio station, completely run by NUS students.
+A redone version of the Radio Pulze website (www.radiopulze.com). Radio Pulze is the official NUS campus radio station, completely run by NUS students.
 
 Where to locate each element in your website:
 GRID SYSTEM
@@ -35,4 +35,5 @@ References you have taken:
 Any special instruction to take note:
 - The Submit button on the Contact Us form does not actually send any emails.
 - The testimonials in the services page are made up, but based on true events.
-- When using the play/stop button in the top left of the navigation bar, please wait a few seconds before pressing the button. The javascript seems to take a while to load.
+- When using the play/stop button in the top left of the navigation bar, please press the icon instead of the text saying "TUNE IN!"
+- You can also visit this website at www.radiopulze.ml :) The official Radio Pulze website is www.radiopulze.com
